@@ -21,4 +21,13 @@ methot属性・・・リクエストに使用されるHTTPメソッドを指定�
   <%= form.text_field :content %>
   <%= form.submit '投稿する' %>
 <% end %>
+
+localオプション・・・リモート送信(Ajax通信)を無効にするかどうかを指定。trueは無効になる
+text_field・・・1行のテキストボックス
+password_field・・・パスワード入力ボックス
+check_box・・・チェックボックス（複数選択可）
+radio_button・・・ラジオボタン（複数の中から1つ選択）
+submit・・・送信ボタン
+※submit以外はキー(:~)が必要
+
 ```
